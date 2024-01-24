@@ -38,7 +38,7 @@ Handling the missingness will be a large part of data cleaning for this dataset.
 ## Data Evaluation & Visualization
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Make.png" width="650" height="350">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Make.png" width="650" height="550">
 </p> 
 
 **Most Used Airplane `Make`**: If we view this data numerically, we can see that ~43% of aircrafts being used are of Cessna make. This aligns with the information provided by CNN about best selling airplanes.
