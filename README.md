@@ -71,14 +71,14 @@ If we look at the data numerically below, we can see that ~20% of Cessna acciden
 
 We can see that within the Cessna make, the 152 model used most often and that the difference between these models decreases after the top 4.
 
-<p align="right">
+<p align="center">
   <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Prec%20Damage%20vs%20Model.png" width="850" height="550"
 </p>
 
 Now we can compare the top 4 `Model` types with `Aircraft.damage`. Though slight, we can clearly see the Cessna 172 model recorded the least number of damaged airplanes.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="350" height="150"
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="350" height="275"
 </p>
 
 If we look at the data numerically below, we can see that ~12% of the Cessna 172 model destroyed the aircraft, which is less than any of the top 4 Cessna models used.
