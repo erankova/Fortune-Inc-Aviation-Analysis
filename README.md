@@ -31,7 +31,7 @@ For additional information about aircraft regulation history, most commonly used
 
 - <a href = "https://www.faa.gov/about/history/brief_history">Brief History of Aviation Regulations</a>
 - <a href = "https://www.cnn.com/travel/article/world-best-selling-airplanes/index.html">Best Selling Airplain</a>
-- <a href = https://en.wikipedia.org/wiki/Visual_meteorological_conditions>Wikipedia</a>
+- <a href = https://en.wikipedia.org/wiki/Visual_meteorological_conditions>VMC/IMC Wikipedia</a>
 
 Handling the missingness will be a large part of data cleaning for this dataset.
 
@@ -44,7 +44,7 @@ Handling the missingness will be a large part of data cleaning for this dataset.
 **Most Used Airplane `Make`**: If we view this data numerically, we can see that ~43% of aircrafts being used are of Cessna make. This aligns with the information provided by CNN about best selling airplanes.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Make%20vs%20Aircraft%20Damage.png" width="650" height="350">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Make%20vs%20Aircraft%20Damage.png" width="650" height="450">
 </p> 
 
 **Top `Make` Compared with `Aircraft.damage`**: When comparing `Make` with `Aircraft.damage` we can see that because Cessna is still by far the most popular, it also records the most substantial damage to the air craft. However, at this point, it does not *seem* have significanly more cases of destroyed aircrafts than lesser used makes.
@@ -52,7 +52,7 @@ Handling the missingness will be a large part of data cleaning for this dataset.
 Again, we see that beyond the top 4 makes, the analysis becomes insignificant.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Perc%20Damage%20vs%20Make.png" width="950" height="340">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Perc%20Damage%20vs%20Make.png" width="950" height="540">
 </p> 
 
 Finally we want to compare `Make` and `Aircraft.damage` on a percentage scale to be certain which make poses least risk to the aircraft during an accident. We can see that though it looked like Piper might have a lesser percentage of destroyed aircrafts, in fact, it is Cessna that poses least risk.
