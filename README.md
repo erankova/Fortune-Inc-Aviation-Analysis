@@ -92,7 +92,7 @@ If we look at the data numerically below, we can see that ~12% of the Cessna 172
 As we can see, the Reciprocating engine yields the least injuries for Cessna planes.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries%20Table.png" width="566" height="133"
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries%20Table.png" width="594" height="272"
 </p>
 
 We can see that numerically, the Reciprocating engine yields percentages in the 90's for lower total injury counts (0-6).
