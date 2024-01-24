@@ -2,7 +2,7 @@
 ### Elina Rankova
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Airplane1.jpg" width="650" height="350">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Airplane1.jpg" width="720" height="450">
 </p> 
 
 ## The Business Problem
@@ -38,13 +38,13 @@ Handling the missingness will be a large part of data cleaning for this dataset.
 ## Data Evaluation & Visualization
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Make.png" width="650" height="550">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Make.png" width="684" height="580">
 </p> 
 
 **Most Used Airplane `Make`**: If we view this data numerically, we can see that ~43% of aircrafts being used are of Cessna make. This aligns with the information provided by CNN about best selling airplanes.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Make%20vs%20Aircraft%20Damage.png" width="850" height="750">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Make%20vs%20Aircraft%20Damage.png" width="856" height="588">
 </p> 
 
 **Top `Make` Compared with `Aircraft.damage`**: When comparing `Make` with `Aircraft.damage` we can see that because Cessna is still by far the most popular, it also records the most substantial damage to the air craft. However, at this point, it does not *seem* have significanly more cases of destroyed aircrafts than lesser used makes.
@@ -52,13 +52,13 @@ Handling the missingness will be a large part of data cleaning for this dataset.
 Again, we see that beyond the top 4 makes, the analysis becomes insignificant.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Perc%20Damage%20vs%20Make.png" width="850" height="540">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Perc%20Damage%20vs%20Make.png" width="907" height="477">
 </p> 
 
 Finally we want to compare `Make` and `Aircraft.damage` on a percentage scale to be certain which make poses least risk to the aircraft during an accident. We can see that though it looked like Piper might have a lesser percentage of destroyed aircrafts, in fact, it is Cessna that poses least risk.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="350" height="225">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="508" height="297">
 </p> 
 
 If we look at the data numerically below, we can see that ~20% of Cessna accidents destroy the aircraft while Piper, the second most used make, has ~24% of accidents resulting in a destroyed aircraft.
@@ -66,19 +66,19 @@ If we look at the data numerically below, we can see that ~20% of Cessna acciden
 **Most Used Cessna Model**
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Models.png" width="550" height="575">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Models.png" width="666" height="525">
 </p>
 
 We can see that within the Cessna make, the 152 model used most often and that the difference between these models decreases after the top 4.
 
 <p align="right">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Prec%20Damage%20vs%20Model.png" width="850" height="550"
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Prec%20Damage%20vs%20Model.png" width="991" height="473"
 </p>
 
 Now we can compare the top 4 `Model` types with `Aircraft.damage`. Though slight, we can clearly see the Cessna 172 model recorded the least number of damaged airplanes.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="550" height="200"
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="408" height="197"
 </p>
 
 If we look at the data numerically below, we can see that ~12% of the Cessna 172 model destroyed the aircraft, which is less than any of the top 4 Cessna models used.
@@ -86,7 +86,7 @@ If we look at the data numerically below, we can see that ~12% of the Cessna 172
 **`Engine.Type` to `Total.Injuries` for Cessna `Make`**
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries.png" width="850" height="650"
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries.png" width="990" height="663"
 </p>
 
 As we can see, the Reciprocating engine yields the least injuries for Cessna planes.
@@ -96,6 +96,24 @@ As we can see, the Reciprocating engine yields the least injuries for Cessna pla
 </p>
 
 We can see that numerically, the Reciprocating engine yields percentages in the 90's for lower total injury counts (0-6).
+
+## `Weather.Condition` vs `Injury Severity`
+
+<p align="center">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Weather%20Conditions%20vs%20Injury%20Severity.png" width="566" height="133"
+</p>
+
+When we observe `Injury.Severity` by `Weather.Condition` we can see that most fatal injuries occur during IMC at ~60% of accident instances being fatal vs ~14% in VMC.
+
+**Definition:** Visual meteorological conditions (VMC) is an aviation flight category 
+in which visual flight rules (VFR) flight is permitted—that is, conditions in which 
+pilots have sufficient visibility to fly the aircraft maintaining visual separation 
+from terrain and other aircraft. 
+
+In aviation, instrument meteorological conditions (IMC) are weather conditions that 
+require pilots to fly primarily by reference to flight instruments. Typically, this 
+means flying in cloud or poor weather, where little or nothing can be seen or recognised 
+when looking out of the window. 
 
 ## Conclusion & Recommendations
 
