@@ -1,8 +1,8 @@
-# *The Pick Is In! NFL Draft Classification with Combine Metrics*
-### Eric Au
+# *Up Up and Away! Fortune International Makes it's Way into the Sky*
+### Elina Rankova
 
 <p align="center">
-  <img src = "https://github.com/eric8395/NFL-Combine-Draft-Classification/blob/main/Images/Antoine-Winfield-030222-GETTY-FTR.jpeg" width="650" height="350">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Airplane1.jpg" width="650" height="350">
 </p> 
 
 ## The Business Problem
