@@ -58,7 +58,7 @@ Again, we see that beyond the top 4 makes, the analysis becomes insignificant.
 Finally we want to compare `Make` and `Aircraft.damage` on a percentage scale to be certain which make poses least risk to the aircraft during an accident. We can see that though it looked like Piper might have a lesser percentage of destroyed aircrafts, in fact, it is Cessna that poses least risk.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="350" height="230">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="350" height="225">
 </p> 
 
 If we look at the data numerically below, we can see that ~20% of Cessna accidents destroy the aircraft while Piper, the second most used make, has ~24% of accidents resulting in a destroyed aircraft.
@@ -66,19 +66,19 @@ If we look at the data numerically below, we can see that ~20% of Cessna acciden
 **Most Used Cessna Model**
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Models.png" width="550" height="625">
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Models.png" width="550" height="600">
 </p>
 
 We can see that within the Cessna make, the 152 model used most often and that the difference between these models decreases after the top 4.
 
 <p align="right">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Prec%20Damage%20vs%20Model.png" width="850" height="350"
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Prec%20Damage%20vs%20Model.png" width="850" height="650"
 </p>
 
 Now we can compare the top 4 `Model` types with `Aircraft.damage`. Though slight, we can clearly see the Cessna 172 model recorded the least number of damaged airplanes.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="350" height="225"
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Damage%20vs%20Model%20Table.png" width="350" height="220"
 </p>
 
 If we look at the data numerically below, we can see that ~12% of the Cessna 172 model destroyed the aircraft, which is less than any of the top 4 Cessna models used.
@@ -92,7 +92,7 @@ If we look at the data numerically below, we can see that ~12% of the Cessna 172
 As we can see, the Reciprocating engine yields the least injuries for Cessna planes.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries%20Table.png" width="450" height="250"
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries%20Table.png" width="450" height="350"
 </p>
 
 We can see that numerically, the Reciprocating engine yields percentages in the 90's for lower total injury counts (0-6).
