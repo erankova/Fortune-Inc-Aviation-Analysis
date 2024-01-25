@@ -69,10 +69,10 @@ Again, we see that beyond the top 4 makes, the analysis becomes insignificant.
 Finally we want to compare `Make` and `Aircraft.damage` on a percentage scale to be certain which make poses least risk to the aircraft during an accident. We can see that though it looked like Piper might have a lesser percentage of destroyed aircrafts, in fact, it is Cessna that poses least risk.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Fortune-Inc-Aviation-Analysis/blob/main/Images/Perc%20Damage%20vs%20Make.png" width="1028" height="632">
+  <img src = "https://github.com/erankova/Fortune-Inc-Aviation-Analysis/blob/main/Images/Damage%20vs%20Make%20Table.png" width="423" height="196">
 </p> 
 
-If we look at the data numerically below, we can see that ~20% of Cessna accidents destroy the aircraft while Piper, the second most used make, has ~24% of accidents resulting in a destroyed aircraft.
+If we look at the data numerically, we can see that ~20% of Cessna accidents destroy the aircraft while Piper, the second most used make, has ~24% of accidents resulting in a destroyed aircraft.
 
 **Most Used Cessna Model**
 
@@ -138,12 +138,7 @@ when looking out of the window.
 
 **Data Limitation**
 
-There was some missingness which could not be accounted for and therefore, columns had to be dropped. There are also potential duplicates as `Event.Id` and `Accident.Number` have duplicate values but display slighly different records with some shared information. There were also columns such as `Aircraft.carrier` that may be useful to analyse but had too much mixed data to be able to adequately organize. There is a lack of understanding whether these are supposed to be unique identifiers and it is recommended to obtain additional data for any additional phases of department expansion. 
-
-**Data Limitation**
-
-There was some missingness which could not be accounted for and therefore, columns had to be dropped. There are also potential duplicates as `Event.Id` and `Accident.Number` have duplicate values but display slighly different records with some shared information. There is a lack of understanding whether these are supposed to be unique identifiers and it is recommended to obtain additional data for any additional phases of department expansion. There were also columns such as `Aircraft.carrier` that may be useful to analyse but had too much mixed data to be able to adequately organize. 
-
+There was some missingness which could not be accounted for and therefore, columns had to be dropped. There are also potential duplicates as `Event.Id` and `Accident.Number` have duplicate values but display slighly different records with some shared information. There is a lack of understanding whether these are supposed to be unique identifiers and it is recommended to obtain additional data for any additional phases of department expansion. There were also columns such as `Aircraft.carrier` that may be useful to analyse but had too much mixed data to be able to adequately organize.
 
 **Recommendations**
 
