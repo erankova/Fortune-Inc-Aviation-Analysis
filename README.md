@@ -34,11 +34,17 @@ Handling the missingness will be a large part of data cleaning for this dataset.
 
 ## Data Evaluation & Visualization
 
+We are using event data starting 1992 because in 1982 and 1991 there were major changes in technological inovations and aviation regulations. So we want data starting 1992 and on for `Event.Year`.
+
+**Source:** <a href = "https://www.faa.gov/about/history/brief_history">Brief History of Aviation Regulations</a>
+
 <p align="center">
   <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Make.png" width="684" height="580">
 </p> 
 
 **Most Used Airplane `Make`**: If we view this data numerically, we can see that ~43% of aircrafts being used are of Cessna make. This aligns with the information provided by CNN about best selling airplanes.
+
+**Source:** <a href = "https://www.cnn.com/travel/article/world-best-selling-airplanes/index.html">Best Selling Airplain</a>
 
 <p align="center">
   <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Make%20vs%20Aircraft%20Damage.png" width="856" height="588">
@@ -111,6 +117,8 @@ In aviation, instrument meteorological conditions (IMC) are weather conditions t
 require pilots to fly primarily by reference to flight instruments. Typically, this 
 means flying in cloud or poor weather, where little or nothing can be seen or recognised 
 when looking out of the window. 
+
+**Source:** <a href = https://en.wikipedia.org/wiki/Visual_meteorological_conditions>VMC/IMC Wikipedia</a>
 
 ## Recommendations & Conclusion
 
