@@ -97,22 +97,16 @@ If we look at the data numerically below, we can see that ~12% of the Cessna 172
 **`Engine.Type` to `Total.Injuries` for Cessna `Make`**
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries.png" width="986" height="751"
+  <img src = "https://github.com/erankova/Fortune-Inc-Aviation-Analysis/blob/main/Images/Engine%20vs%20Avg%20Injuries.png" width="668" height="456"
 </p>
 
-As we can see, the Reciprocating engine yields the least injuries for Cessna planes.
+We can see in our tableau visualization using average injury counts, the Reciprocating engine is the best pick for Cessna make.
 
 <p align="center">
   <img src = "https://github.com/erankova/Fortune-Inc-Aviation-Analysis/blob/main/Images/Engine%20Type%20vs%20Injuries%20Table.png" width="594" height="272"
 </p>
 
 We can see that numerically, the Reciprocating engine yields percentages in the 90's for lower total injury counts (0-6).
-
-<p align="center">
-  <img src = "https://github.com/erankova/Fortune-Inc-Aviation-Analysis/blob/main/Images/Engine%20vs%20Avg%20Injuries.png" width="668" height="456"
-</p>
-
-We can see in our tableau visualization using average injury counts, the Reciprocating engine is the best pick for Cessna make.
 
 ## `Weather.Condition` vs `Injury Severity`
 
