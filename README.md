@@ -47,7 +47,7 @@ We are using event data starting 1992 because in 1982 and 1991 there were major 
 **Source:** <a href = "https://www.faa.gov/about/history/brief_history">Brief History of Aviation Regulations</a>
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Most%20Used%20Make.png" width="684" height="580">
+  <img src = "https://github.com/erankova/Fortune-Inc-Aviation-Analysis/blob/main/Images/Most%20Used%20Make.png" width="654" height="608">
 </p> 
 
 **Most Used Airplane `Make`**: If we view this data numerically, we can see that ~43% of aircrafts being used are of Cessna make. This aligns with the information provided by CNN about best selling airplanes.
