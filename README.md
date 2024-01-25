@@ -97,7 +97,7 @@ We can see that numerically, the Reciprocating engine yields percentages in the 
 ## `Weather.Condition` vs `Injury Severity`
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Weather%20Conditions%20vs%20Injury%20Severity.png" width="566" height="133"
+  <img src = "https://github.com/erankova/Fortune-Inc-Aviation-Analysis/blob/main/Images/Weather%20Conditions%20vs%20Injury%20Severity.png" width="565" height="125"
 </p>
 
 When we observe `Injury.Severity` by `Weather.Condition` we can see that most fatal injuries occur during IMC at ~60% of accident instances being fatal vs ~14% in VMC.
