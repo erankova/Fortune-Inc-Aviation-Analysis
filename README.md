@@ -9,25 +9,22 @@
 
 **Stakeholders:** CEO, Head of Operations, Head of Aviation (brand new department)
 
-Our company is expanding into airplane aviation to diversify its portfolio. We aim to evaluate which aircrafts and aircraft specifics pose the lowest risk as we venture into a brand new industry. 
+Fortune Inc. is expanding into airplane aviation to diversify its portfolio. In Phase 1 of department development, we aim to evaluate which aircrafts and aircraft specifics pose the lowest risk as we venture into a brand new industry. Being so to the industry, we want to focus on identifying the industry standard for aircraft make and model, and which top make and model results in least number of destroyed aircrafts during accident events to account for easier financial maintainance. We also want to focus on which type of engine and number of engines **(either add info re: num of engines or take out this point)** is the industry standard for identified make and model and corresponds to the least number of fatal injuries.
 
 **Some preliminary questions include:**
 
-- *What type of aircraft makes the most sense to purchase first?*
-- *Are there aircraft specifics such as number of engines, or engine type that contribute to risk?*
-- *Are there special safety training conditions we should consider for training*
-- *Have there been improvements in aviation technology and regulation helping us determine which data is valid*
+- *What type of aircraft make and model the most sense to purchase first when considering industry standard and which engine types are associated with identified make and model?*
+- *How is type of engine and number of engine related to total injuries during accident events as related to identified industry standard make and model?*
+- *Have there been improvements in aviation technology and regulation helping us determine which event years provide relevant data?*
 
-**The goal: evaluate which type of airplane makes the most sense purchase as we enter an industry we have not explored before.**
-
-We want to find out which statistics about aviation accident reports provide valuable information about which aircraft poses least risk.
+**The goal: evaluate which type of airplane and engine type pose least risk, as defined above, to purchase and as we enter an industry we have not explored before. As an aside, we aim to evaluate how weather conditions correlate to injury severity for potential training considerations in Phase 2.**
 
 ## The Dataset
 For analysis, we are using data from the <a href = "https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses">Aviation Accident Database & Synopses</a>, up to 2023.
 
 Each record represents an accident event and includes much information about aircraft specifics as well as passenger injury details and information about accident events. 
 
-For additional information about aircraft regulation history, most commonly used aircaft, details about the different weather conditions possible make the following resources were used:
+For additional information about; aircraft regulation history and which event years provide most valid data, most commonly used aircaft, and details about the different weather conditions possible, the following resources were used:
 
 - <a href = "https://www.faa.gov/about/history/brief_history">Brief History of Aviation Regulations</a>
 - <a href = "https://www.cnn.com/travel/article/world-best-selling-airplanes/index.html">Best Selling Airplain</a>
@@ -115,13 +112,11 @@ require pilots to fly primarily by reference to flight instruments. Typically, t
 means flying in cloud or poor weather, where little or nothing can be seen or recognised 
 when looking out of the window. 
 
-## Conclusion & Recommendations
+## Recommendations & Conclusion
 
 **Data Limitation**
 
 There was some missingness which could not be accounted for and therefore, columns had to be dropped. There are also potential duplicates as `Event.Id` and `Accident.Number` have duplicate values but display slighly different records with some shared information. There were also columns such as `Aircraft.carrier` that may be useful to analyse but had too much mixed data to be able to adequately organize. There is a lack of understanding whether these are supposed to be unique identifiers and it is recommended to obtain additional data for any additional phases of department expansion. 
-
-**Recommendations**
 
 **Data Limitation**
 
@@ -131,20 +126,22 @@ There was some missingness which could not be accounted for and therefore, colum
 **Recommendations**
 
 *`Make`:* Cessna <br>
-As Cessna airplanes are most widely used and have destroyed the least percentage of airplanes within the accident report.
+Cessna airplanes are most widely used and have destroyed the least percentage of aircrafts within the accident report, when compared with top 4 most used makes. 
 
 *`Model`:* Cessna 172 <br>
-Cessna 172 airplane has shown that only 12% of accidents result in a destroyed airplane, this is less `Aircraft.damage` than caused by any of the other top 4 Cessna models.
+The Cessna 172 model has shown that only 12% of accidents result in a destroyed airplane, this is less `Aircraft.damage` than caused by any of the other top 4 Cessna models. 
 
 *`Engine.Type`:* Reciprocating <br>
-Reciprocating engine yields percentages in the 90's for lower `Total.Injuries` counts (0-6), making it the safest engine a Cessna airplane can have.
+Reciprocating engine yields percentages in the 90's for lower `Total.Injuries` counts (0-6), making it the safest engine a Cessna airplane can have, among widely used engines in the industry.
 
 *Safety Training:* Thorough safety training <br>
 Extra attention to training in IMC during which, pilots are primariy flying by reference to flight instruments. The percent of fatal `Injury.Severity` is highest at ~60% vs ~14% in VMC.
 
 **Conclusion** <br>
 
-For Phase 1 of Aviation Department exansion we suggest starting small with Cessna 172 as it poses least risk overall to passengers and business development. For next steps we suggest addressing the *data limitations* to perform a more robust analysis regarding additional Aircrafts we want to invest in for Phase 2.
+For Phase 1 of Aviation Department exansion we suggest starting small with Cessna 172 as it poses least risk overall to passengers and business development. As the industry standard, the Cessna make stands out. The 172 model, though 2nd most used, results in the least amount of destroyed aircrafts during accident events. The Reciprocating engine, being both industry standard and causing least amount of total injuries per accident event, is the clear winner among engine types and a great starter engine for our purposes.
+
+For <u>*next steps*</u> we suggest addressing the *data limitations* to perform a more robust analysis regarding additional Aircrafts we want to invest in for Phase 2. In addition, we would want to take a closer look at locations that resulted in least amount of aircraft damage and total injuries. We will also want to decide whether we will be conducing our own pilot/crew training. Whether doing this inhouse or partnering with other companies, we would want to address the higher number of fatal injuries occuring during instrument meteorological conditions (IMC) as ~60% of accidents occuring during IMC resulted in fatal injuries.
 
 ## Repository Structure
 
