@@ -9,12 +9,12 @@
 
 **Stakeholders:** CEO, Head of Operations, Head of Aviation (brand new department)
 
-Fortune Inc. is expanding into airplane aviation to diversify its portfolio. In Phase 1 of department development, we aim to evaluate which aircrafts and aircraft specifics pose the lowest risk as we venture into a brand new industry. Being so to the industry, we want to focus on identifying the industry standard for aircraft make and model, and which top make and model results in least number of destroyed aircrafts during accident events to account for easier financial maintainance. We also want to focus on which type of engine and number of engines **(either add info re: num of engines or take out this point)** is the industry standard for identified make and model and corresponds to the least number of fatal injuries.
+Fortune Inc. is expanding into airplane aviation to diversify its portfolio. In Phase 1 of department development, we aim to evaluate which aircrafts and aircraft specifics pose the lowest risk as we venture into a brand new industry. Being so to the industry, we want to focus on identifying the industry standard for aircraft make and model, and which top make and model results in least number of *destroyed* aircrafts during accident events to account for easier financial maintainance. We also want to focus on which type of engine is the industry standard for identified make and model and corresponds to the least number of fatal injuries.
 
 **Some preliminary questions include:**
 
 - *What type of aircraft make and model the most sense to purchase first when considering industry standard and which engine types are associated with identified make and model?*
-- *How is type of engine and number of engine related to total injuries during accident events as related to identified industry standard make and model?*
+- *How is type of engine related to total injuries during accident events as related to identified industry standard make and model?*
 - *Have there been improvements in aviation technology and regulation helping us determine which event years provide relevant data?*
 
 **The goal: evaluate which type of airplane and engine type pose least risk, as defined above, to purchase and as we enter an industry we have not explored before. As an aside, we aim to evaluate how weather conditions correlate to injury severity for potential training considerations in Phase 2.**
@@ -33,6 +33,10 @@ For additional information about; aircraft regulation history and which event ye
 Handling the missingness will be a large part of data cleaning for this dataset.
 
 ## Data Evaluation & Visualization
+
+Tableau Dashboard Preview
+- <a href = "https://public.tableau.com/app/profile/elina.rankova/viz/FortuneInc_AviationAnalysis/Dashboard1?publish=yes">Link to Tableau Dashboard</a>
+
 
 We are using event data starting 1992 because in 1982 and 1991 there were major changes in technological inovations and aviation regulations. So we want data starting 1992 and on for `Event.Year`.
 
@@ -147,9 +151,9 @@ Extra attention to training in IMC during which, pilots are primariy flying by r
 
 **Conclusion** <br>
 
-For Phase 1 of Aviation Department exansion we suggest starting small with Cessna 172 as it poses least risk overall to passengers and business development. As the industry standard, the Cessna make stands out. The 172 model, though 2nd most used, results in the least amount of destroyed aircrafts during accident events. The Reciprocating engine, being both industry standard and causing least amount of total injuries per accident event, is the clear winner among engine types and a great starter engine for our purposes.
+For <u>*Phase 1*</u> of Aviation Department expansion we suggest starting small with Cessna 172 as it poses least risk overall to passengers and business development. As the industry standard, the Cessna make stands out. The 172 model, though 2nd most used, results in the least amount of destroyed aircrafts during accident events. The Reciprocating engine, being both industry standard and causing least amount of total injuries per accident event, is the clear winner among engine types and a great starter engine for our purposes.
 
-For <u>*next steps*</u> we suggest addressing the *data limitations* to perform a more robust analysis regarding additional Aircrafts we want to invest in for Phase 2. In addition, we would want to take a closer look at locations that resulted in least amount of aircraft damage and total injuries. We will also want to decide whether we will be conducing our own pilot/crew training. Whether doing this inhouse or partnering with other companies, we would want to address the higher number of fatal injuries occuring during instrument meteorological conditions (IMC) as ~60% of accidents occuring during IMC resulted in fatal injuries.
+For <u>*Phase 2*</u> we suggest addressing the *data limitations* to perform a more robust analysis regarding additional Aircrafts we want to invest in for Phase 2. In addition, we would want to take a closer look at locations that resulted in least amount of aircraft damage and total injuries. We will also want to decide whether we will be conducting our own pilot/crew training. Whether doing this inhouse or partnering with other companies, we would want to address the higher number of fatal injuries occuring during instrument meteorological conditions (IMC) as ~60% of accidents occuring during IMC resulted in fatal injuries.
 
 ## Repository Structure
 
