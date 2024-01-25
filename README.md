@@ -86,13 +86,13 @@ If we look at the data numerically below, we can see that ~12% of the Cessna 172
 **`Engine.Type` to `Total.Injuries` for Cessna `Make`**
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries.png" width="990" height="663"
+  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries.png" width="986" height="751"
 </p>
 
 As we can see, the Reciprocating engine yields the least injuries for Cessna planes.
 
 <p align="center">
-  <img src = "https://github.com/erankova/Phase-1-Project/blob/main/Images/Engine%20Type%20vs%20Injuries%20Table.png" width="594" height="272"
+  <img src = "https://github.com/erankova/Fortune-Inc-Aviation-Analysis/blob/main/Images/Engine%20Type%20vs%20Injuries.png" width="594" height="272"
 </p>
 
 We can see that numerically, the Reciprocating engine yields percentages in the 90's for lower total injury counts (0-6).
@@ -123,17 +123,28 @@ There was some missingness which could not be accounted for and therefore, colum
 
 **Recommendations**
 
-*`Make`:* Cessna
+**Data Limitation**
+
+There was some missingness which could not be accounted for and therefore, columns had to be dropped. There are also potential duplicates as `Event.Id` and `Accident.Number` have duplicate values but display slighly different records with some shared information. There is a lack of understanding whether these are supposed to be unique identifiers and it is recommended to obtain additional data for any additional phases of department expansion. There were also columns such as `Aircraft.carrier` that may be useful to analyse but had too much mixed data to be able to adequately organize. 
+
+
+**Recommendations**
+
+*`Make`:* Cessna <br>
 As Cessna airplanes are most widely used and have destroyed the least percentage of airplanes within the accident report.
 
-*`Model`:* Cessna 172
+*`Model`:* Cessna 172 <br>
 Cessna 172 airplane has shown that only 12% of accidents result in a destroyed airplane, this is less `Aircraft.damage` than caused by any of the other top 4 Cessna models.
 
-*`Engine.Type`:* Reciprocating
+*`Engine.Type`:* Reciprocating <br>
 Reciprocating engine yields percentages in the 90's for lower `Total.Injuries` counts (0-6), making it the safest engine a Cessna airplane can have.
 
-*Safety Training:* Thorough safety training
+*Safety Training:* Thorough safety training <br>
 Extra attention to training in IMC during which, pilots are primariy flying by reference to flight instruments. The percent of fatal `Injury.Severity` is highest at ~60% vs ~14% in VMC.
+
+**Conclusion** <br>
+
+For Phase 1 of Aviation Department exansion we suggest starting small with Cessna 172 as it poses least risk overall to passengers and business development. For next steps we suggest addressing the *data limitations* to perform a more robust analysis regarding additional Aircrafts we want to invest in for Phase 2.
 
 ## Repository Structure
 
